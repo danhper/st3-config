@@ -13,3 +13,9 @@
 [submodule "Packages/PrettyJson"]
 	path = Packages/PrettyJson
 	url = https://github.com/dzhibas/SublimePrettyJson.git
+[submodule "Packages/IncDecValue"]
+	path = Packages/IncDecValue
+	url = https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
+[submodule "Packages/Ensime"]
+	path = Packages/Ensime
+	url = https://github.com/sublimescala/sublime-ensime.git
