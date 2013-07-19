@@ -1,0 +1,15 @@
+[submodule "Packages/sublemacspro"]
+	path = Packages/sublemacspro
+	url = https://github.com/tuvistavie/sublemacspro.git
+[submodule "Packages/BlockCursorEverywhere"]
+	path = Packages/BlockCursorEverywhere
+	url = https://github.com/tuvistavie/BlockCursorEverywhere.git
+[submodule "Packages/BracketHighlighter"]
+	path = Packages/BracketHighlighter
+	url = https://github.com/facelessuser/BracketHighlighter.git
+[submodule "Packages/VimCommands"]
+	path = Packages/VimCommands
+	url = https://github.com/tuvistavie/sublime-vim-commands.git
+[submodule "Packages/PrettyJson"]
+	path = Packages/PrettyJson
+	url = https://github.com/dzhibas/SublimePrettyJson.git
