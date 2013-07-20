@@ -22,3 +22,9 @@
 [submodule "Packages/JEDI"]
 	path = Packages/JEDI
 	url = https://github.com/svaiter/SublimeJEDI.git
+[submodule "Packages/AStyleFormatter"]
+	path = Packages/AStyleFormatter
+	url = https://github.com/timonwong/SublimeAStyleFormatter.git
+[submodule "Packages/Clang"]
+	path = Packages/Clang
+	url = https://github.com/quarnster/SublimeClang.git
