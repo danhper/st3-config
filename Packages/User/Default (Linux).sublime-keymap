@@ -1,0 +1,19 @@
+[
+  // edit
+  { "keys": ["super+i"], "command": "enter_insert_mode"},
+  { "keys": ["super+u"], "command": "undo" },
+  { "keys": ["super+r"], "command": "redo" },
+  { "keys": ["alt+h"], "command": "delete_word", "args": { "forward": false } },
+
+  // interface
+  { "keys": [";"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
+  { "keys": ["ctrl+j"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+  // views
+  { "keys": ["super+w"], "command": "try_quit" },
+  { "keys": ["keypad_minus"], "command": "prev_view" },
+  { "keys": ["keypad_plus"], "command": "next_view" },
+  { "keys": ["alt+p"], "command": "prev_view" },
+  { "keys": ["alt+n"], "command": "next_view" }
+
+]
