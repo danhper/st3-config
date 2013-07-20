@@ -31,3 +31,6 @@
 [submodule "Packages/Emmet"]
 	path = Packages/Emmet
 	url = https://github.com/sergeche/emmet-sublime.git
+[submodule "Packages/MarkdownBuild"]
+	path = Packages/MarkdownBuild
+	url = https://github.com/tuvistavie/SublimeMarkdownBuild.git
