@@ -7,19 +7,28 @@
 
   // interface
   { "keys": [";"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
-  { "keys": ["ctrl+j"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  { "keys": ["ctrl+alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  { "keys": ["super+s"], "command": "toggle_side_bar" },
+
+
+  // search
+  { "keys": ["super+space"], "command": "find_under_expand" },
+  { "keys": ["control+super+space"], "command": "find_all_under" },
+  { "keys": ["super+enter"], "command": "find_under_expand_skip" },
 
   // views
-  { "keys": ["super+w"], "command": "try_quit" },
   { "keys": ["keypad_minus"], "command": "prev_view" },
   { "keys": ["keypad_plus"], "command": "next_view" },
   { "keys": ["alt+p"], "command": "prev_view" },
   { "keys": ["alt+n"], "command": "next_view" },
+  { "keys": ["super+w"], "command": "try_quit" },
+  { "keys": ["ctrl+super+w"], "command": "close_all" },
 
   // goto
+  { "keys": ["ctrl+j"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["g", "p"], "command": "goto_symbol_in_project", "context": {"key": "settings.command_mode"} },
   { "keys": ["g", "d"], "command": "goto_definition", "context": {"key": "settings.command_mode"} },
   { "keys": ["g", "m"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
   { "keys": ["g", "s"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
-  { "keys": ["g", "l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["g", "l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
 ]
