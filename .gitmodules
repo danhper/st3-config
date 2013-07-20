@@ -28,3 +28,6 @@
 [submodule "Packages/Clang"]
 	path = Packages/Clang
 	url = https://github.com/quarnster/SublimeClang.git
+[submodule "Packages/Emmet"]
+	path = Packages/Emmet
+	url = https://github.com/sergeche/emmet-sublime.git
