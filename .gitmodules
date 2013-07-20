@@ -19,3 +19,6 @@
 [submodule "Packages/Ensime"]
 	path = Packages/Ensime
 	url = https://github.com/sublimescala/sublime-ensime.git
+[submodule "Packages/JEDI"]
+	path = Packages/JEDI
+	url = https://github.com/svaiter/SublimeJEDI.git
