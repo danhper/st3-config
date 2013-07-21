@@ -37,3 +37,9 @@
 [submodule "Packages/AllAutocomplete"]
 	path = Packages/AllAutocomplete
 	url = https://github.com/alienhard/SublimeAllAutocomplete.git
+[submodule "Packages/OpenSearchResults"]
+	path = Packages/OpenSearchResults
+	url = https://github.com/abrookins/OpenSearchResult.git
+[submodule "Packages/SideBarEnhancements"]
+	path = Packages/SideBarEnhancements
+	url = https://github.com/titoBouzout/SideBarEnhancements.git
