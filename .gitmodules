@@ -34,3 +34,6 @@
 [submodule "Packages/MarkdownBuild"]
 	path = Packages/MarkdownBuild
 	url = https://github.com/tuvistavie/SublimeMarkdownBuild.git
+[submodule "Packages/AllAutocomplete"]
+	path = Packages/AllAutocomplete
+	url = https://github.com/alienhard/SublimeAllAutocomplete.git

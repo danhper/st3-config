@@ -4,12 +4,16 @@
   { "keys": ["super+u"], "command": "undo" },
   { "keys": ["super+r"], "command": "redo" },
   { "keys": ["alt+h"], "command": "delete_word", "args": { "forward": false } },
+   { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
+
+  // move
+  { "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },
+  { "keys": ["super+f"], "command": "move", "args": {"by": "pages", "forward": true } },
 
   // interface
   { "keys": [";"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
   { "keys": ["ctrl+alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
   { "keys": ["super+s"], "command": "toggle_side_bar" },
-
 
   // search
   { "keys": ["super+space"], "command": "find_under_expand" },
@@ -26,9 +30,23 @@
 
   // goto
   { "keys": ["ctrl+j"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-  { "keys": ["g", "p"], "command": "goto_symbol_in_project", "context": {"key": "settings.command_mode"} },
-  { "keys": ["g", "d"], "command": "goto_definition", "context": {"key": "settings.command_mode"} },
-  { "keys": ["g", "m"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
-  { "keys": ["g", "s"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
-  { "keys": ["g", "l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} }
+  { "keys": ["g", "p"], "command": "goto_symbol_in_project", "context": [{"key": "setting.command_mode"} ]},
+  { "keys": ["g", "d"], "command": "goto_definition", "context": [{"key": "setting.command_mode"} ]},
+  { "keys": ["g", "m"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"}, "context": [{"key": "setting.command_mode"}]},
+  { "keys": ["g", "s"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"}, "context": [{"key": "setting.command_mode"} ]},
+  { "keys": ["g", "l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"}, "context": [{"key": "setting.command_mode"} ]},
+
+
+  // misc
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab","context": [
+    { "operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
+      "operator": "equal", "match_all": true, "key": "selector"},
+    { "operand": "text.html source.php, storage.type.templatetag.django", "operator": "not_equal", "match_all": true, "key": "selector" },
+    { "match_all": true, "key": "selection_empty" },
+    { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+    { "operator": "equal", "operand": false, "match_all": true, "key": "setting.disable_tab_abbreviations" },
+    { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+    { "match_all": true, "key": "is_abbreviation" }
+  ] }
+
 ]
