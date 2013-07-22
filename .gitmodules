@@ -43,3 +43,9 @@
 [submodule "Packages/SideBarEnhancements"]
 	path = Packages/SideBarEnhancements
 	url = https://github.com/titoBouzout/SideBarEnhancements.git
+[submodule "Packages/SublimeHaskell"]
+	path = Packages/SublimeHaskell
+	url = https://github.com/SublimeHaskell/SublimeHaskell.git
+[submodule "Packages/SublimeREPL"]
+	path = Packages/SublimeREPL
+	url = https://github.com/wuub/SublimeREPL.git
