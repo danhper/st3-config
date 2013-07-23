@@ -3,3 +3,6 @@ Local/
 Index/
 *.pyc
 Packages/PyV8
+Packages/Package\ Control
+Packages/User/Package\ Control.*
+Installed\ Packages/

@@ -49,3 +49,7 @@
 [submodule "Packages/SublimeREPL"]
 	path = Packages/SublimeREPL
 	url = https://github.com/wuub/SublimeREPL.git
+[submodule "Packages/SublimeJava"]
+	path = Packages/SublimeJava
+	url = https://github.com/quarnster/SublimeJava.git
+
