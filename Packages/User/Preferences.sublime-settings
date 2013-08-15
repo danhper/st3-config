@@ -23,5 +23,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"vintage_start_in_command_mode": true,
-	"vintage_use_clipboard": true
+	"vintage_use_clipboard": true,
+	"ensure_newline_at_eof_on_save": true
 }

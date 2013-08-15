@@ -36,6 +36,9 @@
   { "keys": ["g", "s"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"}, "context": [{"key": "setting.command_mode"} ]},
   { "keys": ["g", "l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"}, "context": [{"key": "setting.command_mode"} ]},
 
+  // project
+  { "keys": ["super+p", "s"], "command": "save_project_and_workspace_as" },
+  { "keys": ["super+p", "e"], "command": "open_file", "args": {"file": "${project}"}},
 
   // misc
   { "keys": ["tab"], "command": "expand_abbreviation_by_tab","context": [
@@ -48,5 +51,7 @@
     { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
     { "match_all": true, "key": "is_abbreviation" }
   ] }
+
+
 
 ]

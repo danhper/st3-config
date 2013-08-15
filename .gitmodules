@@ -53,3 +53,9 @@
 	path = Packages/SublimeJava
 	url = https://github.com/quarnster/SublimeJava.git
 
+[submodule "Packages/SCSS"]
+	path = Packages/SCSS
+	url = https://github.com/danro/SCSS-sublime.git
+[submodule "Packages/CoffeeScript"]
+	path = Packages/CoffeeScript
+	url = https://github.com/Xavura/CoffeeScript-Sublime-Plugin.git

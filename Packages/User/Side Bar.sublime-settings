@@ -1,3 +1,4 @@
 {
-	"version": "2012.06.06.1611.2"
+	"version": "2012.06.06.1611.2",
+  "expand_sidebar_on_startup": false
 }
