@@ -6,3 +6,7 @@ Packages/PyV8
 Packages/Package\ Control
 Packages/User/Package\ Control.*
 Installed\ Packages/
+Packages/User/SFTP.sublime-settings
+Packages/User/sftp_servers/
+Packages/SFTP
+

@@ -14,6 +14,7 @@
   { "keys": [";"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
   { "keys": ["ctrl+alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
   { "keys": ["super+s"], "command": "toggle_side_bar" },
+  { "keys": ["super+t"], "command": "new_file"},
 
   // search
   { "keys": ["super+space"], "command": "find_under_expand" },
