@@ -11,6 +11,8 @@
 		}
 	],
 	"color_scheme": "Packages/Themes/Tomorrow-Night.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"flatland_square_tabs": true,
 	"font_face": "Inconsolata",
 	"font_size": 13,
 	"hot_exit": false,
@@ -19,10 +21,10 @@
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
+	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"vintage_start_in_command_mode": true,
-	"vintage_use_clipboard": true,
-	"ensure_newline_at_eof_on_save": true
+	"vintage_use_clipboard": true
 }

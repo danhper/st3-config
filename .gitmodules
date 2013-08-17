@@ -62,3 +62,6 @@
 [submodule "Packages/PHP-Twig"]
 	path = Packages/PHP-Twig
 	url = https://github.com/Anomareh/PHP-Twig.tmbundle.git
+[submodule "Packages/Theme - Flatland"]
+	path = Packages/Theme - Flatland
+	url = https://github.com/thinkpixellab/flatland.git
