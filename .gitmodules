@@ -65,3 +65,6 @@
 [submodule "Packages/Theme - Flatland"]
 	path = Packages/Theme - Flatland
 	url = https://github.com/thinkpixellab/flatland.git
+[submodule "Packages/Handlebars"]
+	path = Packages/Handlebars
+	url = https://github.com/daaain/Handlebars.git
