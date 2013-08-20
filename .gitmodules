@@ -49,10 +49,6 @@
 [submodule "Packages/SublimeREPL"]
 	path = Packages/SublimeREPL
 	url = https://github.com/wuub/SublimeREPL.git
-[submodule "Packages/SublimeJava"]
-	path = Packages/SublimeJava
-	url = https://github.com/quarnster/SublimeJava.git
-
 [submodule "Packages/SCSS"]
 	path = Packages/SCSS
 	url = https://github.com/danro/SCSS-sublime.git
@@ -68,3 +64,6 @@
 [submodule "Packages/Handlebars"]
 	path = Packages/Handlebars
 	url = https://github.com/daaain/Handlebars.git
+[submodule "Packages/SublimeJava"]
+	path = Packages/SublimeJava
+	url = https://github.com/quarnster/SublimeJava.git
