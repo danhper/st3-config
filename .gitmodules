@@ -67,3 +67,6 @@
 [submodule "Packages/SublimeJava"]
 	path = Packages/SublimeJava
 	url = https://github.com/quarnster/SublimeJava.git
+[submodule "Packages/SublimeGDB"]
+	path = Packages/SublimeGDB
+	url = https://github.com/quarnster/SublimeGDB.git
