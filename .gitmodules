@@ -76,3 +76,6 @@
 [submodule "Packages/SublimeRailsNav"]
 	path = Packages/SublimeRailsNav
 	url = https://github.com/noklesta/SublimeRailsNav.git
+[submodule "Packages/SublimeText2RailsFileSwitcher"]
+	path = Packages/SublimeText2RailsFileSwitcher
+	url = https://github.com/AlexanderZaytsev/SublimeText2RailsFileSwitcher.git
