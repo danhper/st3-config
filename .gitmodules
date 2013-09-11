@@ -73,3 +73,6 @@
 [submodule "Packages/SublimeLinter"]
 	path = Packages/SublimeLinter
 	url = https://github.com/SublimeLinter/SublimeLinter.git
+[submodule "Packages/SublimeRailsNav"]
+	path = Packages/SublimeRailsNav
+	url = https://github.com/noklesta/SublimeRailsNav.git
