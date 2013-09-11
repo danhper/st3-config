@@ -18,6 +18,7 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"SublimeHaskell",
 		"SublimeJava"
 	],
 	"remember_open_files": false,
