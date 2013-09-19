@@ -79,3 +79,6 @@
 [submodule "Packages/SublimeText2RailsFileSwitcher"]
 	path = Packages/SublimeText2RailsFileSwitcher
 	url = https://github.com/AlexanderZaytsev/SublimeText2RailsFileSwitcher.git
+[submodule "Packages/EditorConfig"]
+	path = Packages/EditorConfig
+	url = https://github.com/sindresorhus/editorconfig-sublime.git
