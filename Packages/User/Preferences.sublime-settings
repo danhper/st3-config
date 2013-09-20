@@ -18,8 +18,8 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeHaskell",
-		"SublimeJava"
+		"SublimeJava",
+		"SublimeHaskell"
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
