@@ -4,9 +4,6 @@
 [submodule "Packages/BlockCursorEverywhere"]
 	path = Packages/BlockCursorEverywhere
 	url = https://github.com/tuvistavie/BlockCursorEverywhere.git
-[submodule "Packages/BracketHighlighter"]
-	path = Packages/BracketHighlighter
-	url = https://github.com/facelessuser/BracketHighlighter.git
 [submodule "Packages/VimCommands"]
 	path = Packages/VimCommands
 	url = https://github.com/tuvistavie/sublime-vim-commands.git

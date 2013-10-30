@@ -4,7 +4,9 @@
   { "keys": ["super+u"], "command": "undo" },
   { "keys": ["super+r"], "command": "redo" },
   { "keys": ["alt+h"], "command": "delete_word", "args": { "forward": false } },
-   { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+["], "command": "fold" },
+  { "keys": ["super+]"], "command": "unfold" },
 
   // move
   { "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },
@@ -40,6 +42,7 @@
   // project
   { "keys": ["super+p", "s"], "command": "save_project_and_workspace_as" },
   { "keys": ["super+p", "e"], "command": "open_file", "args": {"file": "${project}"}},
+  { "keys": ["super+p", "o"], "command": "prompt_select_workspace" },
 
   // misc
   { "keys": ["tab"], "command": "expand_abbreviation_by_tab","context": [

@@ -14,12 +14,13 @@
 	"ensure_newline_at_eof_on_save": true,
 	"flatland_square_tabs": true,
 	"font_face": "Inconsolata",
-	"font_size": 13,
+	"font_size": 16,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"SublimeHaskell",
 		"SublimeJava",
-		"SublimeHaskell"
+		"BlockCursorEverywhere"
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
