@@ -8,5 +8,7 @@ Packages/User/Package\ Control.*
 Installed\ Packages/
 Packages/User/SFTP.sublime-settings
 Packages/User/sftp_servers/
+Packages/Sublime*
+Packages/Jedi*
 Packages/SFTP
 Backup/

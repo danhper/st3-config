@@ -10,7 +10,7 @@
 			"selector": "source.scala"
 		}
 	],
-	"color_scheme": "Packages/Themes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"flatland_square_tabs": true,
 	"font_face": "Inconsolata",
