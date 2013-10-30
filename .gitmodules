@@ -79,3 +79,6 @@
 [submodule "Packages/EditorConfig"]
 	path = Packages/EditorConfig
 	url = https://github.com/sindresorhus/editorconfig-sublime.git
+[submodule "Packages/BracketHighlighter"]
+	path = Packages/BracketHighlighter
+	url = https://github.com/facelessuser/BracketHighlighter.git
