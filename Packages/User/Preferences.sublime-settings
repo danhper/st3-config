@@ -8,6 +8,10 @@
 		{
 			"characters": ".",
 			"selector": "source.scala"
+		},
+		{
+			"characters": ".",
+			"selector": "source.go"
 		}
 	],
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
@@ -18,9 +22,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BlockCursorEverywhere",
 		"SublimeJava",
-		"SublimeHaskell"
+		"SublimeHaskell",
+		"BlockCursorEverywhere"
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
