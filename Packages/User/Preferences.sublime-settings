@@ -18,9 +18,9 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeHaskell",
+		"BlockCursorEverywhere",
 		"SublimeJava",
-		"BlockCursorEverywhere"
+		"SublimeHaskell"
 	],
 	"remember_open_files": false,
 	"tab_size": 2,
