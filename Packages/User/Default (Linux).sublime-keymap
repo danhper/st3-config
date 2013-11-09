@@ -66,6 +66,11 @@
     "context": [{ "key": "selector", "operator": "equal", "operand": "source.go" }]
   },
 
+  // java
+  { "keys": ["ctrl+enter"], "command": "manual_completion_request", "context":
+  [{ "key": "selector", "operator": "equal", "operand": "source.java" }]
+  },
+
   // override for all languages
   { "keys": ["ctrl+space"], "command": "sbp_set_mark" }
 ]

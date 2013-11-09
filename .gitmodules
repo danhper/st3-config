@@ -82,3 +82,9 @@
 [submodule "Packages/BracketHighlighter"]
 	path = Packages/BracketHighlighter
 	url = https://github.com/facelessuser/BracketHighlighter.git
+[submodule "Packages/Subclim"]
+	path = Packages/Subclim
+	url = https://github.com/JulianEberius/Subclim.git
+[submodule "Packages/OpenSearchResult"]
+	path = Packages/OpenSearchResult
+	url = https://github.com/abrookins/OpenSearchResult.git

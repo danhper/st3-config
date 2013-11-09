@@ -22,11 +22,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeJava",
 		"SublimeHaskell",
-		"BlockCursorEverywhere"
+		"BlockCursorEverywhere",
+		"SublimeJava"
 	],
 	"remember_open_files": false,
+	"subclim_auto_complete": true,
 	"tab_size": 2,
 	"theme": "Flatland Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
