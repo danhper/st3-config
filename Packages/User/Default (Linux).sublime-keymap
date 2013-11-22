@@ -7,6 +7,8 @@
   { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["super+["], "command": "fold" },
   { "keys": ["super+]"], "command": "unfold" },
+  { "keys": ["super+a"], "command": "alignment" },
+
 
   // move
   { "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },
@@ -72,5 +74,6 @@
   },
 
   // override for all languages
-  { "keys": ["ctrl+space"], "command": "sbp_set_mark" }
+  { "keys": ["ctrl+space"], "command": "sbp_set_mark" },
+  { "keys": ["alt+d"], "command": "delete_word", "args": { "forward": true } }
 ]

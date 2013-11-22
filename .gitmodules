@@ -1,90 +1,15 @@
-[submodule "Packages/sublemacspro"]
-	path = Packages/sublemacspro
-	url = https://github.com/tuvistavie/sublemacspro.git
-[submodule "Packages/BlockCursorEverywhere"]
-	path = Packages/BlockCursorEverywhere
-	url = https://github.com/tuvistavie/BlockCursorEverywhere.git
 [submodule "Packages/VimCommands"]
 	path = Packages/VimCommands
 	url = https://github.com/tuvistavie/sublime-vim-commands.git
-[submodule "Packages/PrettyJson"]
-	path = Packages/PrettyJson
-	url = https://github.com/dzhibas/SublimePrettyJson.git
-[submodule "Packages/IncDecValue"]
-	path = Packages/IncDecValue
-	url = https://github.com/rmaksim/Sublime-Text-2-Inc-Dec-Value.git
-[submodule "Packages/Ensime"]
-	path = Packages/Ensime
-	url = https://github.com/sublimescala/sublime-ensime.git
-[submodule "Packages/SublimeJEDI"]
-	path = Packages/SublimeJEDI
-	url = https://github.com/svaiter/SublimeJEDI.git
-[submodule "Packages/AStyleFormatter"]
-	path = Packages/AStyleFormatter
-	url = https://github.com/timonwong/SublimeAStyleFormatter.git
 [submodule "Packages/SublimeClang"]
 	path = Packages/SublimeClang
 	url = https://github.com/quarnster/SublimeClang.git
-[submodule "Packages/Emmet"]
-	path = Packages/Emmet
-	url = https://github.com/sergeche/emmet-sublime.git
-[submodule "Packages/MarkdownBuild"]
-	path = Packages/MarkdownBuild
-	url = https://github.com/tuvistavie/SublimeMarkdownBuild.git
-[submodule "Packages/AllAutocomplete"]
-	path = Packages/AllAutocomplete
-	url = https://github.com/alienhard/SublimeAllAutocomplete.git
-[submodule "Packages/OpenSearchResults"]
-	path = Packages/OpenSearchResults
-	url = https://github.com/abrookins/OpenSearchResult.git
-[submodule "Packages/SideBarEnhancements"]
-	path = Packages/SideBarEnhancements
-	url = https://github.com/titoBouzout/SideBarEnhancements.git
-[submodule "Packages/SublimeHaskell"]
-	path = Packages/SublimeHaskell
-	url = https://github.com/SublimeHaskell/SublimeHaskell.git
-[submodule "Packages/SublimeREPL"]
-	path = Packages/SublimeREPL
-	url = https://github.com/wuub/SublimeREPL.git
-[submodule "Packages/SCSS"]
-	path = Packages/SCSS
-	url = https://github.com/danro/SCSS-sublime.git
-[submodule "Packages/CoffeeScript"]
-	path = Packages/CoffeeScript
-	url = https://github.com/Xavura/CoffeeScript-Sublime-Plugin.git
-[submodule "Packages/PHP-Twig"]
-	path = Packages/PHP-Twig
-	url = https://github.com/Anomareh/PHP-Twig.tmbundle.git
-[submodule "Packages/Theme - Flatland"]
-	path = Packages/Theme - Flatland
-	url = https://github.com/thinkpixellab/flatland.git
-[submodule "Packages/Handlebars"]
-	path = Packages/Handlebars
-	url = https://github.com/daaain/Handlebars.git
-[submodule "Packages/SublimeJava"]
-	path = Packages/SublimeJava
-	url = https://github.com/quarnster/SublimeJava.git
-[submodule "Packages/SublimeGDB"]
-	path = Packages/SublimeGDB
-	url = https://github.com/quarnster/SublimeGDB.git
-[submodule "Packages/SublimeLinter"]
-	path = Packages/SublimeLinter
-	url = https://github.com/SublimeLinter/SublimeLinter.git
-[submodule "Packages/SublimeRailsNav"]
-	path = Packages/SublimeRailsNav
-	url = https://github.com/noklesta/SublimeRailsNav.git
-[submodule "Packages/SublimeText2RailsFileSwitcher"]
-	path = Packages/SublimeText2RailsFileSwitcher
-	url = https://github.com/AlexanderZaytsev/SublimeText2RailsFileSwitcher.git
-[submodule "Packages/EditorConfig"]
-	path = Packages/EditorConfig
-	url = https://github.com/sindresorhus/editorconfig-sublime.git
-[submodule "Packages/BracketHighlighter"]
-	path = Packages/BracketHighlighter
-	url = https://github.com/facelessuser/BracketHighlighter.git
 [submodule "Packages/Subclim"]
 	path = Packages/Subclim
 	url = https://github.com/JulianEberius/Subclim.git
 [submodule "Packages/OpenSearchResult"]
 	path = Packages/OpenSearchResult
 	url = https://github.com/abrookins/OpenSearchResult.git
+[submodule "Packages/SublimeLinter"]
+	path = Packages/SublimeLinter
+	url = https://github.com/SublimeLinter/SublimeLinter.git
