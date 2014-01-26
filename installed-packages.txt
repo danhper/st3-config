@@ -1,0 +1,27 @@
+Alignment.sublime-package
+All Autocomplete.sublime-package
+AngularJS.sublime-package
+Better CoffeeScript.sublime-package
+BracketHighlighter.sublime-package
+CoffeeComplete Plus (Autocompletion).sublime-package
+EditorConfig.sublime-package
+Emmet.sublime-package
+Ensime.sublime-package
+Gherkin (Cucumber) Formatter.sublime-package
+Git.sublime-package
+Handlebars.sublime-package
+Inc-Dec-Value.sublime-package
+Markdown Preview.sublime-package
+Package Control.sublime-package
+PHP-Twig.sublime-package
+Pretty JSON.sublime-package
+Prolog.sublime-package
+PyV8
+Ruby Slim.sublime-package
+RubyTest.sublime-package
+SCSS.sublime-package
+SideBarEnhancements.sublime-package
+Strapdown Markdown Preview.sublime-package
+sublemacspro.sublime-package
+Theme - Flatland.sublime-package
+Tomorrow Color Schemes.sublime-package
