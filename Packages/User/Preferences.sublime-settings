@@ -1,4 +1,5 @@
 {
+	"atomic_save": false,
 	"auto_complete_triggers":
 	[
 		{
@@ -28,13 +29,13 @@
 		"dist"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 17,
+	"font_size": 15,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"BlockCursorEverywhere",
-		"SublimeHaskell",
-		"SublimeJava"
+		"SublimeJava",
+		"SublimeHaskell"
 	],
 	"remember_open_files": false,
 	"subclim_auto_complete": true,

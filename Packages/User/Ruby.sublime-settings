@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"Guardfile"
-	]
+    "Guardfile",
+    "Vagrantfile"
+  ]
 }
