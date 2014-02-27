@@ -11,8 +11,10 @@
     "Ensime",
     "Gherkin (Cucumber) Formatter",
     "Git",
+    "GoSublime",
     "Handlebars",
     "Inc-Dec-Value",
+    "Jedi - Python autocompletion",
     "Markdown Preview",
     "Package Control",
     "PHP-Twig",
@@ -25,6 +27,7 @@
     "SideBarEnhancements",
     "Strapdown Markdown Preview",
     "sublemacspro",
+    "SublimeCodeIntel",
     "Theme - Flatland",
     "Tomorrow Color Schemes"
   ]
