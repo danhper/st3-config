@@ -1,0 +1,31 @@
+{
+  "installed_packages": [
+    "Alignment",
+    "All Autocomplete",
+    "AngularJS",
+    "Better CoffeeScript",
+    "BracketHighlighter",
+    "CoffeeComplete Plus (Autocompletion)",
+    "EditorConfig",
+    "Emmet",
+    "Ensime",
+    "Gherkin (Cucumber) Formatter",
+    "Git",
+    "Handlebars",
+    "Inc-Dec-Value",
+    "Markdown Preview",
+    "Package Control",
+    "PHP-Twig",
+    "Pretty JSON",
+    "Prolog",
+    "PyV8",
+    "Ruby Slim",
+    "RubyTest",
+    "SCSS",
+    "SideBarEnhancements",
+    "Strapdown Markdown Preview",
+    "sublemacspro",
+    "Theme - Flatland",
+    "Tomorrow Color Schemes"
+  ]
+}

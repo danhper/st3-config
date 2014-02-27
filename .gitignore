@@ -4,7 +4,7 @@ Index/
 *.pyc
 Packages/PyV8
 Packages/Package\ Control
-Packages/User/Package\ Control.*
+Packages/User/Package\ Control.system-ca-bundle
 Installed\ Packages/
 Packages/User/SFTP.sublime-settings
 Packages/User/sftp_servers/
