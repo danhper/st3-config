@@ -8,6 +8,7 @@
   { "keys": ["super+["], "command": "fold" },
   { "keys": ["super+]"], "command": "unfold" },
   { "keys": ["super+a"], "command": "alignment" },
+  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/User/Kill to Hard EOL.sublime-macro"} },
 
 
   // move
@@ -16,7 +17,7 @@
 
   // interface
   { "keys": [";"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
-  { "keys": [":"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
+  // { "keys": [":"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
   { "keys": ["ctrl+alt+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
   { "keys": ["ctrl+alt+s"], "command": "toggle_side_bar" },
   { "keys": ["super+t"], "command": "new_file"},
