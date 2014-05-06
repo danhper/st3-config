@@ -3,17 +3,23 @@
   { "keys": ["super+i"], "command": "enter_insert_mode"},
   { "keys": ["super+u"], "command": "undo" },
   { "keys": ["super+r"], "command": "redo" },
+  { "keys": ["ctrl+h"], "command": "left_delete"},
   { "keys": ["alt+h"], "command": "delete_word", "args": { "forward": false } },
   { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
   { "keys": ["super+["], "command": "fold" },
   { "keys": ["super+]"], "command": "unfold" },
   { "keys": ["super+a"], "command": "alignment" },
-  { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/User/Kill to Hard EOL.sublime-macro"} },
-
+  // { "keys": ["ctrl+k"], "command": "run_macro_file", "args": {"file": "Packages/User/Kill to Hard EOL.sublime-macro"} },
+  { "keys": ["ctrl+g"], "command": "sbp_quit"},
+  { "keys": ["ctrl+shift+l"], "command": "split_selection_into_lines" },
 
   // move
   { "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },
   { "keys": ["super+f"], "command": "move", "args": {"by": "pages", "forward": true } },
+  { "keys": ["ctrl+p"], "command": "move", "args": {"by": "lines", "forward": false} },
+  { "keys": ["ctrl+n"], "command": "move", "args": {"by": "lines", "forward": true} },
+  { "keys": ["ctrl+b"], "command": "move", "args": {"by": "characters", "forward": false} },
+  { "keys": ["ctrl+f"], "command": "move", "args": {"by": "characters", "forward": true} },
 
   // interface
   { "keys": [";"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": ":"}, "context": [{"key": "setting.command_mode"}] },
@@ -35,6 +41,16 @@
   { "keys": ["super+w"], "command": "try_quit" },
   { "keys": ["ctrl+super+w"], "command": "close_all" },
   { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+  { "keys": ["alt+1"], "command": "select_by_index", "args": { "index": 0 } },
+  { "keys": ["alt+2"], "command": "select_by_index", "args": { "index": 1 } },
+  { "keys": ["alt+3"], "command": "select_by_index", "args": { "index": 2 } },
+  { "keys": ["alt+4"], "command": "select_by_index", "args": { "index": 3 } },
+  { "keys": ["alt+5"], "command": "select_by_index", "args": { "index": 4 } },
+  { "keys": ["alt+6"], "command": "select_by_index", "args": { "index": 5 } },
+  { "keys": ["alt+7"], "command": "select_by_index", "args": { "index": 6 } },
+  { "keys": ["alt+8"], "command": "select_by_index", "args": { "index": 7 } },
+  { "keys": ["alt+9"], "command": "select_by_index", "args": { "index": 8 } },
+  { "keys": ["alt+0"], "command": "select_by_index", "args": { "index": 9 } },
 
   // goto
   { "keys": ["ctrl+j"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
@@ -48,19 +64,6 @@
   { "keys": ["super+p", "s"], "command": "save_project_and_workspace_as" },
   { "keys": ["super+p", "e"], "command": "open_file", "args": {"file": "${project}"}},
   { "keys": ["super+p", "o"], "command": "prompt_select_workspace" },
-
-  // misc
-  { "keys": ["tab"], "command": "expand_abbreviation_by_tab","context": [
-    { "operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
-      "operator": "equal", "match_all": true, "key": "selector"},
-    { "operand": "text.html source.php, storage.type.templatetag.django", "operator": "not_equal", "match_all": true, "key": "selector" },
-    { "match_all": true, "key": "selection_empty" },
-    { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
-    { "operator": "equal", "operand": false, "match_all": true, "key": "setting.disable_tab_abbreviations" },
-    { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
-    { "match_all": true, "key": "is_abbreviation" }]
-  },
-  { "keys": ["["], "command": "noop", "context": [{"key": "setting.command_mode"}] }, // fix bug
 
   // go
   {
@@ -81,8 +84,47 @@
   { "keys":["tab"], "command": "move", "args": {"by": "lines", "forward": true}, "context": [{"key":"mozc_qp_mode"}]},
   { "keys":["tab"],"command": "mozc_send_key","args":{"key": "tab"},"context": [{"key":"mozc_input_mode"}]},
   { "keys": ["super+j"], "command": "toggle_mozc" },
+  { "keys": ["escape"], "command": "run_macro_file", "args": { "file": "Packages/User/Disable Mozc And Exit Insert Mode.sublime-macro" },
+      "context": [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+        // { "key": "mozc_input_mode", "operand": true }
+      ]
+  },
 
   // override for all languages
   { "keys": ["ctrl+space"], "command": "sbp_set_mark" },
-  { "keys": ["alt+d"], "command": "delete_word", "args": { "forward": true } }
+  { "keys": ["alt+d"], "command": "delete_word", "args": { "forward": true } },
+  { "keys": ["alt+d"], "command": "delete_word", "args": { "forward": true } },
+  { "keys": ["$"], "command": "set_motion", "args": {
+    "motion": "vi_move_to_hard_eol",
+    "motion_args": {"repeat": 1, "extend": true},
+    "inclusive": true,
+    "clip_to_line": true },
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  // fix bug
+  { "keys": ["["], "command": "noop", "context": [{"key": "setting.command_mode"}] },
+
+  // fix tab behavior
+  { "keys": ["tab"], "command": "expand_abbreviation_by_tab","context": [
+    { "operand": "source.css, source.sass, source.less, source.scss, source.stylus, text.xml, text.html, text.haml, text.scala.html, source string",
+      "operator": "equal", "match_all": true, "key": "selector"},
+    { "operand": "text.html source.php, storage.type.templatetag.django", "operator": "not_equal", "match_all": true, "key": "selector" },
+    { "match_all": true, "key": "selection_empty" },
+    { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
+    { "operator": "equal", "operand": false, "match_all": true, "key": "setting.disable_tab_abbreviations" },
+    { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
+    { "match_all": true, "key": "is_abbreviation" }]
+  },
+
+  { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
+    "context":
+    [
+      { "key": "setting.tab_completion", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "operand": "text.tex.latex","operator": "equal", "match": true, "key": "selector"}
+    ]
+  }
 ]

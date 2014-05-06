@@ -1,0 +1,10 @@
+[
+  {
+    "args": null,
+    "command": "deactivate_mozc"
+  },
+  {
+    "args": null,
+    "command": "exit_insert_mode"
+  }
+]
