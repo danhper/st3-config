@@ -1,7 +1,8 @@
 {
 	"extensions":
 	[
-    "Guardfile",
-    "Vagrantfile"
-  ]
+		"Guardfile",
+		"Vagrantfile",
+		"jbuilder"
+	]
 }

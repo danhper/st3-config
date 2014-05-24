@@ -1,5 +1,6 @@
 {
 	"atomic_save": false,
+	"auto_complete_selector": "source, text",
 	"auto_complete_triggers":
 	[
 		{
@@ -15,7 +16,7 @@
 			"selector": "source.go"
 		}
 	],
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"flatland_square_tabs": true,
 	"folder_exclude_patterns":
@@ -33,9 +34,18 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BlockCursorEverywhere",
+		"Anaconda",
+		"SublimeLinter-pyflakes",
 		"SublimeJava",
-		"SublimeHaskell"
+		"Markdown",
+		"Jedi - Python autocompletion",
+		"SublimeHaskell",
+		"Vintageous",
+		"SublimeLinter-pylint",
+		"SublimeLinter-flake8",
+		"LaTeXTools",
+		"SublimePythonIDE",
+		"BlockCursorEverywhere"
 	],
 	"remember_open_files": false,
 	"subclim_auto_complete": true,
@@ -45,5 +55,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"vintage_start_in_command_mode": true,
-	"vintage_use_clipboard": true
+	"vintage_use_clipboard": true,
+	"wrap_width": 80
 }
