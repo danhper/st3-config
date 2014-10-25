@@ -7,9 +7,6 @@
 [submodule "home/.config/sublime-text-3/Packages/OpenSearchResult"]
 	path = home/.config/sublime-text-3/Packages/OpenSearchResult
 	url = https://github.com/abrookins/OpenSearchResult.git
-[submodule "home/.config/sublime-text-3/Packages/SublimeLinter"]
-	path = home/.config/sublime-text-3/Packages/SublimeLinter
-	url = https://github.com/SublimeLinter/SublimeLinter.git
 [submodule "home/.config/sublime-text-3/Packages/SublimeClang"]
 	path = home/.config/sublime-text-3/Packages/SublimeClang
 	url = https://github.com/quarnster/SublimeClang.git
