@@ -1,15 +1,15 @@
-[submodule "Packages/VimCommands"]
-	path = Packages/VimCommands
+[submodule "home/.config/sublime-text-3/Packages/VimCommands"]
+	path = home/.config/sublime-text-3/Packages/VimCommands
 	url = https://github.com/tuvistavie/sublime-vim-commands.git
-[submodule "Packages/SublimeClang"]
-	path = Packages/SublimeClang
+[submodule "home/.config/sublime-text-3/Packages/SublimeClang"]
+	path = home/.config/sublime-text-3/Packages/SublimeClang
 	url = https://github.com/quarnster/SublimeClang.git
-[submodule "Packages/Subclim"]
-	path = Packages/Subclim
+[submodule "home/.config/sublime-text-3/Packages/Subclim"]
+	path = home/.config/sublime-text-3/Packages/Subclim
 	url = https://github.com/JulianEberius/Subclim.git
-[submodule "Packages/OpenSearchResult"]
-	path = Packages/OpenSearchResult
+[submodule "home/.config/sublime-text-3/Packages/OpenSearchResult"]
+	path = home/.config/sublime-text-3/Packages/OpenSearchResult
 	url = https://github.com/abrookins/OpenSearchResult.git
-[submodule "Packages/SublimeLinter"]
-	path = Packages/SublimeLinter
+[submodule "home/.config/sublime-text-3/Packages/SublimeLinter"]
+	path = home/.config/sublime-text-3/Packages/SublimeLinter
 	url = https://github.com/SublimeLinter/SublimeLinter.git

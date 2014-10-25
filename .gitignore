@@ -2,33 +2,33 @@
 *.last-run
 *.cache
 
-Cache/
-Backup/
-Index/
-Installed\ Packages/
-Local/
+home/.config/sublime-text-3/Cache/
+home/.config/sublime-text-3/Backup/
+home/.config/sublime-text-3/Index/
+home/.config/sublime-text-3/Installed\ Packages/
+home/.config/sublime-text-3/Local/
 
-Packages/PyV8/
-Packages/Package\ Control
-Packages/User/Package\ Control.system-ca-bundle
-Packages/User/SFTP.sublime-settings
-Packages/User/sftp_servers/
-Packages/Jedi*
-Packages/SFTP
-Packages/Ensime/
-Packages/SublimeAStyleFormatter/
-Packages/SublimeCodeIntel/
-Packages/GoSublime/
-Packages/User/GoSublime/
-Packages/User/linters/
-Packages/Anaconda/
-Packages/HTML/
-Packages/LaTeXTools/
-Packages/PySide/
-Packages/Python Flake8 Lint/
-Packages/Python PEP8 Autoformat/
-Packages/Rails/
-Packages/SSL/
-Packages/SublimePythonIDE/
-Packages/TodoReview/
+home/.config/sublime-text-3/Packages/PyV8/
+home/.config/sublime-text-3/Packages/Package\ Control
+home/.config/sublime-text-3/Packages/User/Package\ Control.system-ca-bundle
+home/.config/sublime-text-3/Packages/User/SFTP.sublime-settings
+home/.config/sublime-text-3/Packages/User/sftp_servers/
+home/.config/sublime-text-3/Packages/Jedi*
+home/.config/sublime-text-3/Packages/SFTP
+home/.config/sublime-text-3/Packages/Ensime/
+home/.config/sublime-text-3/Packages/SublimeAStyleFormatter/
+home/.config/sublime-text-3/Packages/SublimeCodeIntel/
+home/.config/sublime-text-3/Packages/GoSublime/
+home/.config/sublime-text-3/Packages/User/GoSublime/
+home/.config/sublime-text-3/Packages/User/linters/
+home/.config/sublime-text-3/Packages/Anaconda/
+home/.config/sublime-text-3/Packages/HTML/
+home/.config/sublime-text-3/Packages/LaTeXTools/
+home/.config/sublime-text-3/Packages/PySide/
+home/.config/sublime-text-3/Packages/Python Flake8 Lint/
+home/.config/sublime-text-3/Packages/Python PEP8 Autoformat/
+home/.config/sublime-text-3/Packages/Rails/
+home/.config/sublime-text-3/Packages/SSL/
+home/.config/sublime-text-3/Packages/SublimePythonIDE/
+home/.config/sublime-text-3/Packages/TodoReview/
 
