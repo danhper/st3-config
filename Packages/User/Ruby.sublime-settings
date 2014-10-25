@@ -3,6 +3,7 @@
 	[
 		"Guardfile",
 		"Vagrantfile",
-		"jbuilder"
+		"jbuilder",
+		"rabl"
 	]
 }

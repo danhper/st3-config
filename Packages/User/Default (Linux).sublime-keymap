@@ -14,6 +14,7 @@
   { "keys": ["ctrl+x", "ctrl+u"], "command": "upper_case" },
   { "keys": ["ctrl+x", "ctrl+l"], "command": "lower_case" },
   { "keys": ["ctrl+k"], "command": "sbp_move_then_delete", "args": {"move_cmd": "sbp_move_for_kill_line"}},
+  { "keys": ["ctrl+enter"], "command": "auto_complete" },
 
   // move
   { "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },
@@ -33,8 +34,8 @@
   { "keys": ["super+enter"], "command": "find_under_expand_skip" },
 
   // views
-  { "keys": ["keypad_minus"], "command": "prev_view" },
-  { "keys": ["keypad_plus"], "command": "next_view" },
+  { "keys": ["f13"], "command": "prev_view" },
+  { "keys": ["f14"], "command": "next_view" },
   { "keys": ["alt+p"], "command": "prev_view" },
   { "keys": ["alt+n"], "command": "next_view" },
   { "keys": ["super+w"], "command": "try_quit" },
@@ -76,6 +77,9 @@
   { "keys": ["ctrl+enter"], "command": "manual_completion_request", "context":
   [{ "key": "selector", "operator": "equal", "operand": "source.java" }]
   },
+
+  // js
+  { "keys": ["g", "d"], "command": "ternjs_jump_to_definition", "context": [{"key": "setting.command_mode"}, {"key": "selector", "operator": "equal", "operand": "source.js"} ]},
 
   // mozc
   { "keys":["ctrl+h"], "command": "hide_overlay", "context": [{"key":"mozc_qp_mode"}]},

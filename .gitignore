@@ -1,18 +1,34 @@
-Cache/
-Local/
-Index/
 *.pyc
-Packages/PyV8
+*.last-run
+*.cache
+
+Cache/
+Backup/
+Index/
+Installed\ Packages/
+Local/
+
+Packages/PyV8/
 Packages/Package\ Control
 Packages/User/Package\ Control.system-ca-bundle
-Installed\ Packages/
 Packages/User/SFTP.sublime-settings
 Packages/User/sftp_servers/
 Packages/Jedi*
 Packages/SFTP
-Backup/
 Packages/Ensime/
 Packages/SublimeAStyleFormatter/
 Packages/SublimeCodeIntel/
 Packages/GoSublime/
+Packages/User/GoSublime/
+Packages/User/linters/
+Packages/Anaconda/
+Packages/HTML/
+Packages/LaTeXTools/
+Packages/PySide/
+Packages/Python Flake8 Lint/
+Packages/Python PEP8 Autoformat/
+Packages/Rails/
+Packages/SSL/
+Packages/SublimePythonIDE/
+Packages/TodoReview/
 

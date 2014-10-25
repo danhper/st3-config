@@ -9,6 +9,10 @@
 		},
 		{
 			"characters": ".",
+			"selector": "source.js"
+		},
+		{
+			"characters": ".",
 			"selector": "source.scala"
 		},
 		{
@@ -17,6 +21,7 @@
 		}
 	],
 	"color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
+	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
 	"flatland_square_tabs": true,
 	"folder_exclude_patterns":
@@ -34,20 +39,26 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Anaconda",
-		"SublimeLinter-pyflakes",
-		"SublimeJava",
-		"Markdown",
-		"Jedi - Python autocompletion",
-		"SublimeHaskell",
+		"SublimeLinter",
 		"Vintageous",
 		"SublimeLinter-pylint",
-		"SublimeLinter-flake8",
-		"LaTeXTools",
+		"BlockCursorEverywhere",
 		"SublimePythonIDE",
-		"BlockCursorEverywhere"
+		"Git",
+		"SublimeLinter-flake8",
+		"SublimeJava",
+		"SublimeLinter-pyflakes",
+		"Anaconda",
+		"LaTeXTools",
+		"SublimeClang",
+		"Markdown",
+		"SublimeCodeIntel"
 	],
 	"remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
 	"subclim_auto_complete": true,
 	"tab_size": 2,
 	"theme": "Flatland Dark.sublime-theme",

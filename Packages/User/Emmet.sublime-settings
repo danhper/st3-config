@@ -1,0 +1,3 @@
+{
+  "css_completions_scope": "source.css - meta.selector.css - meta.property-value.css, source.scss - meta.selector.scss - meta.property-value.scss, source.less - meta.selector.css - meta.property-value.css, source.stylus - meta.selector.stylus - constant.property-value.stylus",
+}
