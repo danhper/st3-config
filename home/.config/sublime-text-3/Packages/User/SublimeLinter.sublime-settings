@@ -23,7 +23,7 @@
 			},
 			"jslint":
 			{
-				"@disable": false,
+				"@disable": true,
 				"args":
 				[
 					"--indent=2",
@@ -33,6 +33,19 @@
 				"excludes":
 				[
 				]
+			},
+			"pep8":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"ignore": "",
+				"max-line-length": null,
+				"select": ""
 			},
 			"pyflakes":
 			{
@@ -59,7 +72,7 @@
 			}
 		},
 		"mark_style": "outline",
-		"no_column_highlights_line": false,
+		"no_column_highlights_line": true,
 		"paths":
 		{
 			"linux":

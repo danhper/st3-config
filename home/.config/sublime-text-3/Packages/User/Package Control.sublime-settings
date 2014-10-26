@@ -57,6 +57,7 @@
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pylint",
 		"SublimePythonIDE",
+		"SublimeREPL",
 		"TernJS",
 		"Theme - Flatland",
 		"TodoReview",

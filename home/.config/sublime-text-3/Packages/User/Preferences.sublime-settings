@@ -40,18 +40,17 @@
 	"ignored_packages":
 	[
 		"SublimeLinter-pyflakes",
-		"SublimeJava",
-		"Anaconda",
 		"SublimeClang",
-		"SublimeCodeIntel",
 		"Markdown",
-		"Git",
-		"Vintageous",
-		"SublimeLinter-pylint",
-		"SublimePythonIDE",
 		"BlockCursorEverywhere",
+		"SublimeCodeIntel",
+		"SublimeJava",
+		"Vintageous",
+		"LaTeXTools",
 		"SublimeLinter-flake8",
-		"LaTeXTools"
+		"SublimePythonIDE",
+		"SublimeLinter-pylint",
+		"Anaconda"
 	],
 	"remember_open_files": false,
 	"rulers":
