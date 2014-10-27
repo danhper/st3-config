@@ -54,6 +54,7 @@
 		"SublimeLinter-flake8",
 		"SublimeLinter-jshint",
 		"SublimeLinter-pep8",
+		"SublimeLinter-php",
 		"SublimeLinter-pyflakes",
 		"SublimeLinter-pylint",
 		"SublimePythonIDE",
