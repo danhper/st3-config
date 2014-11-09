@@ -39,17 +39,19 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"BlockCursorEverywhere",
-		"Markdown",
-		"Anaconda",
 		"SublimeClang",
-		"SublimeLinter-pylint",
-		"Vintageous",
-		"SublimeLinter-flake8",
-		"LaTeXTools",
+		"Markdown",
+		"SublimeJava",
 		"SublimeLinter-pyflakes",
+		"Anaconda",
+		"BlockCursorEverywhere",
 		"SublimePythonIDE",
-		"SublimeJava"
+		"TernJS",
+		"LaTeXTools",
+		"SublimeLinter-flake8",
+		"SublimeCodeIntel",
+		"SublimeLinter-pylint",
+		"Vintageous"
 	],
 	"remember_open_files": false,
 	"rulers":
