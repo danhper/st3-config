@@ -15,6 +15,7 @@
   { "keys": ["ctrl+x", "ctrl+l"], "command": "lower_case" },
   { "keys": ["ctrl+k"], "command": "sbp_move_then_delete", "args": {"move_cmd": "sbp_move_for_kill_line"}},
   { "keys": ["ctrl+enter"], "command": "auto_complete" },
+  { "keys": ["ctrl+t"], "command": "transpose" },
 
   // move
   { "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },

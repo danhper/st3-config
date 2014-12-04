@@ -34,24 +34,24 @@
 		"target",
 		"dist"
 	],
-	"font_face": "Inconsolata",
-	"font_size": 15,
+	"font_face": "Ricty",
+	"font_size": 14,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimeClang",
-		"Markdown",
-		"SublimeJava",
-		"SublimeLinter-pyflakes",
-		"Anaconda",
-		"BlockCursorEverywhere",
 		"SublimePythonIDE",
-		"TernJS",
-		"LaTeXTools",
-		"SublimeLinter-flake8",
 		"SublimeCodeIntel",
+		"Vintageous",
+		"BlockCursorEverywhere",
+		"Markdown",
+		"SublimeLinter-flake8",
+		"LaTeXTools",
+		"SublimeLinter-pyflakes",
+		"TernJS",
+		"Anaconda",
+		"SublimeJava",
 		"SublimeLinter-pylint",
-		"Vintageous"
+		"SublimeClang"
 	],
 	"remember_open_files": false,
 	"rulers":
