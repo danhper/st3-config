@@ -1,6 +1,3 @@
-[submodule "home/.config/sublime-text-3/Packages/VimCommands"]
-	path = home/.config/sublime-text-3/Packages/VimCommands
-	url = https://github.com/tuvistavie/sublime-vim-commands.git
 [submodule "home/.config/sublime-text-3/Packages/Subclim"]
 	path = home/.config/sublime-text-3/Packages/Subclim
 	url = https://github.com/JulianEberius/Subclim.git
