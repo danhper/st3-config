@@ -1,9 +1,11 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"All Autocomplete",
-		"Anaconda",
 		"AngularJS",
 		"AutoPEP8",
 		"Better CoffeeScript",
@@ -16,6 +18,7 @@
 		"EJS",
 		"Emmet",
 		"Ensime",
+		"FileCommands",
 		"Gherkin (Cucumber) Formatter",
 		"Gist",
 		"Git",
@@ -68,7 +71,6 @@
 		"Theme - Flatland",
 		"TodoReview",
 		"Tomorrow Color Schemes",
-		"Vintageous",
 		"WordCount"
 	]
 }
