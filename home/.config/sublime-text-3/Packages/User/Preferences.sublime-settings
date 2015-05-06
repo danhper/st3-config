@@ -20,7 +20,7 @@
 			"selector": "source.go"
 		}
 	],
-	"color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
+	"color_scheme": "Packages/User/Tomorrow-Night (SL) (Flake8Lint).tmTheme",
 	"draw_centered": true,
 	"ensure_newline_at_eof_on_save": true,
 	"flatland_square_tabs": true,
@@ -35,23 +35,27 @@
 		"dist"
 	],
 	"font_face": "Ricty",
-	"font_size": 14,
+	"font_size": 11,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"SublimePythonIDE",
-		"SublimeCodeIntel",
-		"Vintageous",
-		"BlockCursorEverywhere",
-		"Markdown",
-		"SublimeLinter-flake8",
-		"LaTeXTools",
-		"SublimeLinter-pyflakes",
 		"TernJS",
-		"Anaconda",
-		"SublimeJava",
+		"JSX",
 		"SublimeLinter-pylint",
-		"SublimeClang"
+		"SublimeREPL",
+		"SublimePythonIDE",
+		"Anaconda",
+		"Python Flake8 Lint",
+		"Dart",
+		"SublimeLinter-flake8",
+		"Vintageous",
+		"Markdown",
+		"SublimeClang",
+		"SublimeLinter-pyflakes",
+		"BlockCursorEverywhere",
+		"SublimeJava",
+		"LaTeXTools",
+		"PySide"
 	],
 	"remember_open_files": false,
 	"rulers":
